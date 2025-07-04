@@ -267,7 +267,7 @@
   color: white;
 }
 
-.content .inner-cont .weather .inner-weather .cards .day1-card .data .max-temp .min-temp {
+.content .inner-cont .weather .inner-weather .cards .day1-card .data .min-temp {
   font-size: 14px;
   color: #bfc1c8;
 }
@@ -318,7 +318,7 @@
   color: white;
 }
 
-.content .inner-cont .weather .inner-weather .cards .day2-card .data .max-temp .min-temp {
+.content .inner-cont .weather .inner-weather .cards .day2-card .data .min-temp {
   font-size: 14px;
   color: #bfc1c8;
 }

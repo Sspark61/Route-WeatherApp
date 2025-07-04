@@ -44,7 +44,7 @@
       <div class="inner-cont">
         <div class="search">
           <div class="inner-search">
-            <input type="text" placeholder="Find Your Location..." />
+            <input type="text" placeholder="Find Your Location..." id="city" />
             <button type="button" id="button-addon2">Find</button>
           </div>
         </div>
@@ -57,27 +57,19 @@
                   <h3>3 July</h3>
                 </div>
                 <div class="data">
-                  <div class="location">Cairo</div>
-                  <div class="temp">30&deg;C</div>
-                  <div class="temp-icon">
-                    <img
-                      src="//cdn.weatherapi.com/weather/64x64/day/113.png"
-                      alt=""
-                    />
-                  </div>
-                  <div class="description">Sunny</div>
+                  <div class="location"></div>
+                  <div class="temp"></div>
+                  <div class="temp-icon"></div>
+                  <div class="description"></div>
                   <div class="extras">
-                    <span>
+                    <span class="humidity">
                       <img src="images/icon-umberella.png" alt="" />
-                      20%
                     </span>
-                    <span>
+                    <span class="wind">
                       <img src="images/icon-wind.png" alt="" />
-                      18 km/h
                     </span>
-                    <span>
+                    <span class="direction">
                       <img src="images/icon-compass.png" alt="" />
-                      North
                     </span>
                   </div>
                 </div>
@@ -87,17 +79,12 @@
                   <h3>Friday</h3>
                 </div>
                 <div class="data">
-                  <div class="temp-icon">
-                    <img
-                      src="//cdn.weatherapi.com/weather/64x64/day/113.png"
-                      alt=""
-                    />
+                  <div class="temp-icon"></div>
+                  <div class="temp">
+                    <div class="max-temp"></div>
+                    <div class="min-temp"></div>
                   </div>
-                  <div class="max-temp">
-                    40&deg;C
-                    <div class="min-temp">30&deg;C</div>
-                  </div>
-                  <div class="description">Sunny</div>
+                  <div class="description"></div>
                 </div>
               </div>
               <div class="day2-card">
@@ -105,17 +92,12 @@
                   <h3>Saturday</h3>
                 </div>
                 <div class="data">
-                  <div class="temp-icon">
-                    <img
-                      src="//cdn.weatherapi.com/weather/64x64/day/113.png"
-                      alt=""
-                    />
+                  <div class="temp-icon"></div>
+                  <div class="temp">
+                    <div class="max-temp"></div>
+                    <div class="min-temp"></div>
                   </div>
-                  <div class="max-temp">
-                    40&deg;C
-                    <div class="min-temp">30&deg;C</div>
-                  </div>
-                  <div class="description">Sunny</div>
+                  <div class="description"></div>
                 </div>
               </div>
             </div>
@@ -128,7 +110,10 @@
         <div class="newsletter">
           <div class="inner-news">
             <div class="input-group">
-              <input type="email" placeholder="Enter Your E-mail to Subscribe..." />
+              <input
+                type="email"
+                placeholder="Enter Your E-mail to Subscribe..."
+              />
               <button type="button" id="button-addon2">Subscribe</button>
             </div>
             <div class="socials">
@@ -152,5 +137,6 @@
         </div>
       </div>
     </div>
+    <script src="JS/logic.js"></script>
   </body>
 </html>
