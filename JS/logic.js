@@ -129,7 +129,6 @@ document.addEventListener("click", function (event) {
   }
 });
 
-// add event listener to close the nav list when clicking on a link
 document.querySelectorAll("#nav-list a").forEach(function (link) {
   link.addEventListener("click", function () {
     var navList = document.getElementById("nav-list");
