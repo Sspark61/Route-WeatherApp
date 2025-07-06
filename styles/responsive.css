@@ -1,0 +1,124 @@
+@media screen and (max-width: 1500px) {
+  .navbar .inner-navbar {
+    width: 80%;
+  }
+
+  .content .inner-cont .search {
+    width: 80%;
+  }
+
+  .content .inner-cont .weather .inner-weather {
+    width: 80%;
+  }
+
+  .footer .inner-footer {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar .inner-navbar {
+    width: 90%;
+  }
+
+  .content .inner-cont .search {
+    width: 90%;
+  }
+
+  .content .inner-cont .weather .inner-weather {
+    width: 90%;
+  }
+
+  .footer .inner-footer {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .list-bar {
+    display: block;
+  }
+
+  #nav-list:target {
+    transform: translateX(100%);
+  }
+
+  #nav-list {
+    display: none;
+    flex-direction: column;
+    padding: 20px;
+    transform: translateX(200%);
+    position: absolute;
+    z-index: 2;
+    width: 40%;
+    height: 100%;
+    background-color: #1e202b;
+    right: 40%;
+    top: 0;
+    transition: 0.5s;
+  }
+
+  #nav-list ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .content .inner-cont {
+    height: 130%;
+  }
+
+  .content .inner-cont .search{
+    top: 5%;
+  }
+
+  .content .inner-cont .weather .inner-weather .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content .inner-cont .weather .inner-weather .cards .today-card,
+  .day1-card,
+  .day2-card {
+    width: 90%;
+  }
+
+  .content .inner-cont .weather .inner-weather .cards .today-card .head {
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .content .inner-cont .weather .inner-weather .cards .today-card .data {
+    border-radius: 0px;
+  }
+
+  .content .inner-cont .weather .inner-weather .cards .day2-card .head {
+    border-radius: 0px;
+  }
+
+  .content .inner-cont .weather .inner-weather .cards .day2-card .data {
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .footer{
+    height: 30%;
+  }
+
+  .footer .inner-footer .newsletter .inner-news{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer .inner-footer .newsletter{
+    align-items: center;
+  }
+
+  .footer .inner-footer .newsletter .inner-news .input-group{
+    justify-content: center;
+  }
+
+  .footer .inner-footer .newsletter .inner-news .input-group button{
+    top: 9.5%;
+    right: 10.8%;
+  }
+}

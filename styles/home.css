@@ -43,6 +43,10 @@
   color: #bfc1c8;
 }
 
+.navbar .inner-navbar .nav-links{
+  transition: 0.3s ease;
+}
+
 .nav-links ul {
   display: flex;
   justify-content: center;
@@ -51,10 +55,49 @@
   list-style: none;
 }
 
+.nav-links ul li{
+  padding: 5px 20px;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+
+.nav-links ul li:hover {
+  border: 2px solid #009ad8;
+}
+
+.nav-links ul li:hover a {
+  color: #009ad8;
+}
+
 .nav-links ul li a {
   text-decoration: none;
   color: white;
   font-size: 15px;
+  transition: 0.3s ease;
+}
+
+.navbar .inner-navbar .hamburgerbtn input{
+  display: none;
+}
+
+.hamburgerbtn{
+  display: flex;
+  gap: 15px;
+}
+
+.hamburgerbtn a {
+  text-decoration: none;
+  color: white;
+}
+
+.hamburgerbtn i {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.list-bar{
+  display: none;
 }
 
 .content .inner-cont {
@@ -64,6 +107,7 @@
   height: 66%;
   width: 100%;
   background-color: #1e202b;
+  overflow: hidden;
 }
 
 .content .inner-cont .search {
@@ -129,11 +173,12 @@
 .day2-card {
   width: 33.33%;
   text-align: center;
+  overflow: hidden;
 }
 
 .content .inner-cont .weather .inner-weather .cards .today-card .head {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   font-size: 12px;
   color: #bfc1c8;
   background-color: #2d303d;
